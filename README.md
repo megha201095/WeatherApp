@@ -1,5 +1,5 @@
 ## Run Application
 ```bash
 npm i
-npm run start
+PORT=4000 npm run start
 ```
