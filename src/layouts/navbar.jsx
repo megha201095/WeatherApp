@@ -9,7 +9,7 @@ const Navbar = ({ history, logout }) => {
         <nav className="navbar navbar-inverse">
             <div className="container-fluid">
                 <div className="navbar-header">
-                    <Link to="/" className="navbar-brand" >Xebia</Link>
+                    <Link to="/" className="navbar-brand" >Weather App</Link>
                 </div>
                 <ul className="nav navbar-nav navbar-right">
                     <li><span className="glyphicon glyphicon-user"></span> {sessionStorage.getItem('user')}</li>

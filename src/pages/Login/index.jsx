@@ -22,16 +22,15 @@ class Login extends React.Component {
         }
 
         return (
-            <div className="main-container-wrapper relative-position" id="main-container-wrapper" style={{  }}>
+            <div className="main-container-wrapper relative-position" id="main-container-wrapper" style={{ backgroundImage: `url("https://d2pd5v9y7ukdgh.cloudfront.net/G2U/banners/login-bg@2x.jpg")`, width: '100%', height:"100vh", overflow: 'hidden'}}>
                 <div className="main-container-wrapper-body-home height-100vh" id="main-container-wrapper-body" style={{  }}>
                     <div className="login-container-m">
-                        <div className="section-login-bg-m">
-                            <img src="https://d2pd5v9y7ukdgh.cloudfront.net/G2U/banners/login-bg@2x.jpg" style={{  width: '100%' }} alt="Login Bg" />
-                        </div>
+                        <div className="section-login-bg-m" >
                         <div className="section-login-body">
+                            <div style={{ marginLeft: '40%', marginTop: '20%' }}> 
                             <div className="section-login-text">
                                 <img src="http://d2pd5v9y7ukdgh.cloudfront.net/GAMERSMOBY_NEW_UI/gamersmoby/theme2/assets/images/icons/login-logo_v1.svg" alt="GamersMoby" />
-                                <h2 className="login-subtitle">
+                                <h2 className="login-subtitle" style={{color : 'white'}}>
                                     Play 100+ free games <br />and win
             <span style={{ color: 'var(--primary-text-color)' }}>prizes!</span>
                                 </h2>
@@ -45,12 +44,12 @@ class Login extends React.Component {
                                     cookiePolicy={'single_host_origin'}
                                     isSignedIn={true}
                                 />
-                                {/* <button className="btn-google-login" onclick="signInWithGoogle();">
-                                    <img src="/theme2/assets/images/icons/ic-google.svg" alt="Google" /> Continue with Google </button>
-                                <button className="btn-twitter-login" onclick="signInWithTwitter();" style={{}}><img alt="Twiiter" src="/theme2/assets/images/icons/ic-twitter.svg" /> Continue with Twitter </button> */}
+                                </div>
                             </div>
                         </div>
                     </div>
+                    </div>
+
                 </div>
             </div>
         )
